@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.vite/
+
+# Local servers and logs
+*.log
+vite-server.*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python backend runtime
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.sqlite
+*.sqlite3
+backend/app/*.sqlite3
+
+# Large downloaded/imported data
+data/raw/
+data/processed/
+*.csv.zst
+*.pgn
+*.ndjson
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
